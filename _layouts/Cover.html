@@ -1,0 +1,45 @@
+---
+layout: default
+---
+
+<article class="page">
+
+<h5><big><big>«</big></big><a href="https://iHuer.GitHub.io">主页／首頁／Home Page／ホームページ</a></h5>
+
+<h1>{{ page.title }}</h1>
+
+<h5>{{ page.date | date: "%Y年%m月%d日" }}</h5>
+
+<br>
+
+<audio src="https://ghproxy.com/https://raw.githubusercontent.com/iHuer/iHuer.github.io/main/Cover/{{ page.path }}/MP3.mp3" preload="metadata" controls></audio>
+
+<br><br><br>
+
+<img src="https://ghproxy.com/https://raw.githubusercontent.com/iHuer/iHuer.github.io/main/Cover/{{ page.path }}/Thumbnail/MV.png" title="MV" alt="MV">
+
+<br>
+
+<img src="https://ghproxy.com/https://raw.githubusercontent.com/iHuer/iHuer.github.io/main/Cover/{{ page.path }}/Thumbnail/MP3.png" title="MP3" alt="MP3">
+
+<br><br>
+
+<blockquote><a href="https://iHuer.GitHub.io/Terms#Cover" title="2022年10月22日">使用条款／使用條款／Terms of use／利用規約</a></blockquote>
+
+<br><br>
+
+<h2>🖼MV</h2>
+
+<p>YouTube：<a href="https://YouTu.be/{{ page.youtube }}">https://YouTu.be/{{ page.youtube }}</a></p>
+<p>bilibili：<a href="https://www.bilibili.com/video/{{ page.bilibili }}">https://www.bilibili.com/video/{{ page.bilibili }}</a></p>
+
+<h2>🎶MP3</h2>
+
+<p>网易云音乐：<a href="https://music.163.com/album/{{ page.netease }}">https://music.163.com/album/{{ page.netease }}</a></p>
+<p>QQ音乐：<a href="https://y.QQ.com/n/ryqq/albumDetail/{{ page.qq }}">https://y.QQ.com/n/ryqq/albumDetail/{{ page.qq }}</a></p>
+
+<br><hr>
+
+{{ content }}
+
+</article>
