@@ -1,0 +1,124 @@
+---
+layout: default
+---
+
+<article class="page">
+
+	<h5><big><big>«</big></big><a href="https://iHuer.GitHub.io">主页／首頁／Homepage／ホームページ</a></h5>
+
+	<h1>{{ page.title }}</h1>
+
+	<h5>{{ page.date | date: "%Y年%m月%d日" }}</h5>
+
+		<audio src="https://mirror.ghproxy.com/https://raw.githubusercontent.com/iHuer/iHuer.github.io/main/Cover/{{ page.path }}/MP3.mp3" preload="metadata" controls></audio>
+
+		<br><br>
+
+		<img src="https://mirror.ghproxy.com/https://raw.githubusercontent.com/iHuer/iHuer.github.io/main/Cover/{{ page.path }}/Thumbnail/MV.png" title="MV" alt="MV">
+
+		<br>
+
+		<img src="https://mirror.ghproxy.com/https://raw.githubusercontent.com/iHuer/iHuer.github.io/main/Cover/{{ page.path }}/Thumbnail/MP3.png" title="MP3" alt="MP3">
+
+		<br><br>
+
+		<blockquote><a href="https://iHuer.GitHub.io/Terms#Cover">使用条款／使用條款／Terms of use／利用規約</a></blockquote>
+
+	<br><br><hr><br>
+
+	<h2>🖼MV</h2>
+
+		{%- assign youtube = page.youtube -%}
+		{%- if youtube -%}
+			<p>YouTube：<a href="https://YouTu.be/{{ page.youtube }}">https://YouTu.be/{{ page.youtube }}</a></p>
+		{%- else -%}
+			<p>YouTube：</p>
+		{%- endif -%}
+		{%- assign bilibili = page.bilibili -%}
+		{%- if bilibili -%}
+			<p>bilibili：<a href="https://www.bilibili.com/video/{{ page.bilibili }}">https://www.bilibili.com/video/{{ page.bilibili }}</a></p>
+		{%- else -%}
+			<p>bilibili：</p>
+		{%- endif -%}
+
+	<h2>🎶MP3</h2>
+
+		{%- assign netease = page.netease -%}
+		{%- if netease -%}
+			<p>网易云：<a href="https://music.163.com/album/{{ page.netease }}">https://music.163.com/album/{{ page.netease }}</a></p>
+		{%- else -%}
+			<p>网易云：</p>
+		{%- endif -%}
+		{%- assign qq = page.qq -%}
+		{%- if qq -%}
+			<p>QQ Music：<a href="https://y.QQ.com/n/ryqq/albumDetail/{{ page.qq }}">https://y.QQ.com/n/ryqq/albumDetail/{{ page.qq }}</a></p>
+		{%- else -%}
+			<p>QQ Music：</p>
+		{%- endif -%}
+
+	<h2>📱Shorts</h2>
+
+		{%- assign shorts_youtube = page.shorts_youtube -%}
+		{%- if shorts_youtube -%}
+			<p>YouTube：<a href="https://YouTu.be/{{ page.shorts_youtube }}">https://YouTu.be/{{ page.shorts_youtube }}</a></p>
+		{%- else -%}
+			<p>YouTube：</p>
+		{%- endif -%}
+		{%- assign shorts_bilibili = page.shorts_bilibili -%}
+		{%- if shorts_bilibili -%}
+			<p>bilibili：<a href="https://www.bilibili.com/video/{{ page.shorts_bilibili }}">https://www.bilibili.com/video/{{ page.shorts_bilibili }}</a></p>
+		{%- else -%}
+			<p>bilibili：</p>
+		{%- endif -%}
+
+	{%- assign audio = page.audio -%}
+	{%- if audio -%}
+		<br><hr><br>
+		<h2>{{ page.audio }}</h2>
+			<audio src="https://mirror.ghproxy.com/https://raw.githubusercontent.com/iHuer/iHuer.github.io/main/Cover/{{ page.path }}/{{ page.audio }}.mp3" preload="metadata" controls></audio>
+			{%- assign audio_youtube = page.audio_youtube -%}
+			{%- if audio_youtube -%}
+				<br><br>
+				<p>YouTube：<a href="https://YouTu.be/{{ page.audio_youtube }}">https://YouTu.be/{{ page.audio_youtube }}</a></p>
+			{%- endif -%}
+	{%- endif -%}
+
+	{%- assign project = page.project -%}
+	{%- if project -%}
+		<br><hr><br>
+		<h2>「{{ page.project }}」</h2>
+			{%- assign project_youtube = page.project_youtube -%}
+			{%- if project_youtube -%}
+				<p>YouTube：<a href="https://YouTu.be/{{ page.project_youtube }}">https://YouTu.be/{{ page.project_youtube }}</a></p>
+			{%- endif -%}
+			{%- assign project_bilibili = page.project_bilibili -%}
+			{%- if project_bilibili -%}
+				<p>bilibili：<a href="https://www.bilibili.com/video/{{ page.project_bilibili }}">https://www.bilibili.com/video/{{ page.project_bilibili }}</a></p>
+			{%- endif -%}
+	{%- endif -%}
+
+	{%- assign thumbnail_mv = page.thumbnail_mv -%}
+	{%- if thumbnail_mv -%}
+		<br><hr><br>
+		<img src="https://mirror.ghproxy.com/https://raw.githubusercontent.com/iHuer/iHuer.github.io/main/Cover/{{ page.path }}/Thumbnail/{{ page.thumbnail_mv }}.png" title="{{ page.thumbnail_mv }}" alt="{{ page.thumbnail_mv }}">
+	{%- endif -%}
+
+	{%- assign thumbnail_mp3 = page.thumbnail_mp3 -%}
+	{%- if thumbnail_mp3 -%}
+		<br><hr><br>
+		<img src="https://mirror.ghproxy.com/https://raw.githubusercontent.com/iHuer/iHuer.github.io/main/Cover/{{ page.path }}/Thumbnail/{{ page.thumbnail_mp3 }}.png" title="{{ page.thumbnail_mp3 }}" alt="{{ page.thumbnail_mp3 }}">
+	{%- endif -%}
+
+	{%- assign image = page.image -%}
+	{%- if image -%}
+		{%- assign image_name = image_name -%}
+		{%- if image_name -%}
+			<br><hr><br>
+			<h2>{{ page.image_name }}</h2>
+		{%- endif -%}
+		<img src="https://mirror.ghproxy.com/https://raw.githubusercontent.com/iHuer/iHuer.github.io/main/Cover/{{ page.path }}/{{ page.image }}" title="{{ page.image_name }}" alt="{{ page.image_name }}">
+	{%- endif -%}
+
+	{{ content }}
+
+</article>
