@@ -5,6 +5,7 @@ title: 🌐iHuer Official Website｜主页／首頁／Home Page／ホームペ�
 
 ## 🎤音乐翻唱／音樂翻唱／Music Cover／カバー曲 {#Cover}
 
+* 🎓[我们都拥有海洋／bilibili×吴青峰](/WomenDouYongyouHaiyang)
 * 📣[透明エレジー／n-buna（ヨルシカ）×GUMI](/ToumeiElegy)
 * 👁️[ダーリン／須田景凪（バルーン）](/Darling)
 * ☔[泥中に咲く／ウォルピスカーター＆初音ミク×針原翼（はりーP）](/DeichuuNiSaku)
