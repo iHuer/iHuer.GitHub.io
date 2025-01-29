@@ -5,6 +5,7 @@ title: 🌐iHuer Official Website｜主页／首頁／Home Page／ホームペ�
 
 ## 🎤音乐翻唱／音樂翻唱／Music Cover／カバー曲 {#Cover}
 
+* 🎇[打上花火／DAOKO×米津玄師（ハチ）](/UchiageHanabi)
 * ⚙️[輪廻転生／まふまふ](/RinneTensei)
 * ☎️[パンドラコール／ヰ世界情緒×廉](/PandoraCall)
 * 🎓[我们都拥有海洋／bilibili×吴青峰](/WomenDouYongyouHaiyang)
