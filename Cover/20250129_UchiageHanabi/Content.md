@@ -7,7 +7,7 @@ date: 2025.1.29
 youtube: 5CpvAXPMcjA
 bilibili: BV1AnFpeZEsM
 netease: 260972364
-qq: 
+qq: 003oSt4r3NheYg
 shorts_youtube: a5KooFpWW4c
 shorts_bilibili: BV1bmFaecEWV
 ---
