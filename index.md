@@ -5,6 +5,7 @@ title: 🌐iHuer Official Website｜主页／首頁／Home Page／ホームペ�
 
 ## 🎤音乐翻唱／音樂翻唱／Music Cover／カバー曲 {#Cover}
 
+* 🖤[死ぬにはいい日だった／ピコン×初音ミク](/ItWasAGoodDayToDie)
 * 🎭[フォニイ／ツミキ×可不](/Phony)
 * 🤍[永遠のあくる日／Ado×てにをは](/EienNoAkuruhi)
 * 🎇[打上花火／DAOKO×米津玄師（ハチ）](/UchiageHanabi)
