@@ -10,4 +10,6 @@ netease: 260972364
 qq: 003oSt4r3NheYg
 shorts_youtube: a5KooFpWW4c
 shorts_bilibili: BV1bmFaecEWV
+collab: milk米曜可
+collab_link: https://space.bilibili.com/27498486
 ---
