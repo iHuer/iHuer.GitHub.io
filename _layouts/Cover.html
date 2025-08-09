@@ -10,7 +10,7 @@ layout: default
 
 	{%- assign collab = page.collab -%}
 	{%- if collab -%}
-		{%- assign collab = page.collab_link -%}
+		{%- assign collab_link = page.collab_link -%}
 		{%- if collab_link -%}
 			<h5>iHuer Cover in collaboration with <a href="{{ page.collab_link }}">{{ page.collab }}</a>｜{{ page.date | date: "%Y年%m月%d日" }}</h5>
 		{%- else -%}
