@@ -10,4 +10,6 @@ netease: 184732689
 qq: 002KwYoG2Ailjv
 shorts_youtube: qM9kDpVPsVs
 shorts_bilibili: BV1Eu4m1N7BP
+collab: 百里子规.
+collab_link: https://space.bilibili.com/1587865386
 ---
