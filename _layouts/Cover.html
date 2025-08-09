@@ -10,7 +10,11 @@ layout: default
 
 	{%- assign collab = page.collab -%}
 	{%- if collab -%}
-		<h5>iHuer Cover in collaboration with <a href="{{ page.collab_link }}">{{ page.collab }}</a>｜{{ page.date | date: "%Y年%m月%d日" }}</h5>
+		{%- if collab_link -%}
+			<h5>iHuer Cover in collaboration with <a href="{{ page.collab_link }}">{{ page.collab }}</a>｜{{ page.date | date: "%Y年%m月%d日" }}</h5>
+		{%- else -%}
+			<h5>iHuer Cover in collaboration with {{ page.collab }}｜{{ page.date | date: "%Y年%m月%d日" }}</h5>
+		{%- endif -%}
 	{%- else -%}
 		<h5>iHuer Cover｜{{ page.date | date: "%Y年%m月%d日" }}</h5>
 	{%- endif -%}
@@ -117,14 +121,16 @@ layout: default
 		{%- assign image_name = image_name -%}
 		{%- if image_name -%}
 			<br><hr><br>
-			<h2>{{ page.image_name }}</h2>
+			<h2>{{ page.image_name }}</h2><br>
 		{%- endif -%}
-		<img src="https://ghfast.top/https://raw.githubusercontent.com/iHuer/iHuer.github.io/main/Cover/{{ page.path }}/{{ page.image }}" title="{{ page.image_name }}" alt="{{ page.image_name }}">
+		<img src="https://ghfast.top/https://raw.githubusercontent.com/iHuer/iHuer.github.io/main/Cover/{{ page.path }}/{{ page.image }}" title="{{ page.image_name }}" alt="{{ page.image_name }}"><br>
 	{%- endif -%}
 
-	{{ content }}
+	<br>{{ content }}
 
-	<br><br><hr><br><br>
+	<br>
+	<hr>
+	<br>
 
 	<blockquote><a href="https://iHuer.GitHub.io/Terms#Cover">使用条款／使用條款／Terms of use／利用規約</a></blockquote>
 
