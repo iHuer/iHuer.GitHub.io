@@ -10,4 +10,6 @@ netease: 270104754
 qq: 001ied1P02EbGt
 shorts_youtube: m9h0FE89yX0
 shorts_bilibili: BV1FkVAzbEmm
+collab: 歌安
+collab_link: https://space.bilibili.com/1361005715
 ---
