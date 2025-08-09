@@ -122,11 +122,15 @@ layout: default
 		{%- if image_name -%}
 			<br><hr><br>
 			<h2>{{ page.image_name }}</h2><br>
+			<img src="https://ghfast.top/https://raw.githubusercontent.com/iHuer/iHuer.github.io/main/Cover/{{ page.path }}/{{ page.image }}" title="{{ page.image_name }}" alt="{{ page.image_name }}"><br>
+		{%- else -%}
+			<br><hr><br>
+			<img src="https://ghfast.top/https://raw.githubusercontent.com/iHuer/iHuer.github.io/main/Cover/{{ page.path }}/{{ page.image }}"><br>
 		{%- endif -%}
-		<img src="https://ghfast.top/https://raw.githubusercontent.com/iHuer/iHuer.github.io/main/Cover/{{ page.path }}/{{ page.image }}" title="{{ page.image_name }}" alt="{{ page.image_name }}"><br>
+
 	{%- endif -%}
 
-	<br>{{ content }}
+	{{ content }}
 
 	<br>
 	<hr>
