@@ -8,6 +8,13 @@ layout: default
 
 	<h1>{{ page.title }}</h1>
 
+	{%- assign collab = page.collab -%}
+	{%- if collab -%}
+		<h5>iHuer Cover in collaboration with <a href="{{ page.collab_link }}">{{ page.collab }}</a>｜{{ page.date | date: "%Y年%m月%d日" }}</h5>
+	{%- else -%}
+		<h5>iHuer Cover｜{{ page.date | date: "%Y年%m月%d日" }}</h5>
+	{%- endif -%}
+
 	<h5>{{ page.date | date: "%Y年%m月%d日" }}</h5>
 
 		<audio src="https://ghfast.top/https://raw.githubusercontent.com/iHuer/iHuer.github.io/main/Cover/{{ page.path }}/MP3.mp3" preload="metadata" controls></audio>
@@ -21,8 +28,6 @@ layout: default
 		<img src="https://ghfast.top/https://raw.githubusercontent.com/iHuer/iHuer.github.io/main/Cover/{{ page.path }}/Thumbnail/MP3.png" title="MP3" alt="MP3">
 
 		<br><br>
-
-		<blockquote><a href="https://iHuer.GitHub.io/Terms#Cover">使用条款／使用條款／Terms of use／利用規約</a></blockquote>
 
 	<br><br><hr><br>
 
@@ -41,7 +46,7 @@ layout: default
 			<p>bilibili：</p>
 		{%- endif -%}
 
-	<h2>🎶MP3</h2>
+	<br><h2>🎶MP3</h2>
 
 		{%- assign netease = page.netease -%}
 		{%- if netease -%}
@@ -56,7 +61,7 @@ layout: default
 			<p>QQ Music：</p>
 		{%- endif -%}
 
-	<h2>📱Shorts</h2>
+	<br><h2>📱Shorts</h2>
 
 		{%- assign shorts_youtube = page.shorts_youtube -%}
 		{%- if shorts_youtube -%}
@@ -120,5 +125,9 @@ layout: default
 	{%- endif -%}
 
 	{{ content }}
+
+	<hr>
+
+	<blockquote><a href="https://iHuer.GitHub.io/Terms#Cover">使用条款／使用條款／Terms of use／利用規約</a></blockquote>
 
 </article>
