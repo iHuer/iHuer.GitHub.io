@@ -10,4 +10,6 @@ netease: 265985292
 qq: 000s7lS42m7e2h
 shorts_youtube: 8h9tvp_VMmc
 shorts_bilibili: BV1vCQDYTETV
+collab: 327
+collab_link: https://space.bilibili.com/497637771
 ---
