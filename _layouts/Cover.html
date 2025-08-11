@@ -4,7 +4,7 @@ layout: default
 
 <article class="page">
 
-	<h5><big><big>«</big></big><a href="https://iHuer.GitHub.io">主页／首頁／Homepage／ホームページ</a></h5>
+	<h5><big><big>«</big></big><a href="https://iHuer.GitHub.io">主页／Homepage</a></h5>
 
 	<h1>{{ page.title }}</h1>
 
@@ -59,9 +59,9 @@ layout: default
 		{%- endif -%}
 		{%- assign qq = page.qq -%}
 		{%- if qq -%}
-			<p>QQ Music：<a href="https://y.QQ.com/n/ryqq/albumDetail/{{ page.qq }}">https://y.QQ.com/n/ryqq/albumDetail/{{ page.qq }}</a></p>
+			<p>QQ：<a href="https://y.QQ.com/n/ryqq/albumDetail/{{ page.qq }}">https://y.QQ.com/n/ryqq/albumDetail/{{ page.qq }}</a></p>
 		{%- else -%}
-			<p>QQ Music：</p>
+			<p>QQ：</p>
 		{%- endif -%}
 
 	<br><h2>📱Shorts</h2>
@@ -77,6 +77,24 @@ layout: default
 			<p>bilibili：<a href="https://www.bilibili.com/video/{{ page.shorts_bilibili }}">https://www.bilibili.com/video/{{ page.shorts_bilibili }}</a></p>
 		{%- else -%}
 			<p>bilibili：</p>
+		{%- endif -%}
+
+		{%- assign collab = page.collab -%}
+		{%- if collab -%}
+			<br><h2>🎙️Solo</h2>
+
+			{%- assign solo_netease = page.solo_netease -%}
+			{%- if solo_netease -%}
+				<p>网易云：<a href="https://music.163.com/album/{{ page.solo_netease }}">https://music.163.com/album/{{ page.solo_netease }}</a></p>
+			{%- else -%}
+				<p>网易云：</p>
+			{%- endif -%}
+			{%- assign solo_qq = page.solo_qq -%}
+			{%- if solo_qq -%}
+				<p>QQ：<a href="https://y.QQ.com/n/ryqq/albumDetail/{{ page.solo_qq }}">https://y.QQ.com/n/ryqq/albumDetail/{{ page.solo_qq }}</a></p><!-- 
+	 		{%- else -%}
+				<p>QQ：</p> -->
+			{%- endif -%}
 		{%- endif -%}
 
 	{%- assign audio = page.audio -%}
