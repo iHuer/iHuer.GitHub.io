@@ -5,6 +5,7 @@ title: 🌐iHuer Official Website｜主页／首頁／Home Page／ホームペ�
 
 ## 🎤音乐翻唱／音樂翻唱／Music Cover／カバー曲 {#Cover}
 
+* 🎆[夜明けと蛍／n-buna（ヨルシカ）×初音ミク](/YoakeToHotaru)
 * 🏠[ちゃんとあるよ／傘村トータ×可不](/ChantoAruyo)
 * 📝[万一对了呢／ChiliChill（YuH×Cu夏）](/WhatIf)
 * 🐎[UNFORGIVEN／LE SSERAFIM×Nile Rodgers×Ado](/UNFORGIVEN)
