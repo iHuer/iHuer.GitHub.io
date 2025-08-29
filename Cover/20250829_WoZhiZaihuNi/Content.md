@@ -14,5 +14,3 @@ collab: 银狐
 collab_link: https://music.163.com/artist/99563537
 solo_netease: 
 ---
-
-The firearm depicted in the music video is a model gun used exclusively for this single take. It was obtained through legal means and possesses no operational capability whatsoever.
