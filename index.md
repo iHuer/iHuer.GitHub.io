@@ -5,6 +5,7 @@ title: 🌐iHuer Official Website｜主页／首頁／Home Page／ホームペ�
 
 ## 🎤音乐翻唱／音樂翻唱／Music Cover／カバー曲 {#Cover}
 
+* 🪺[いのちの名前／木村弓×久石譲](/InochiNoNamae)
 * 💤[半夢／ChiliChill（YuH×Cu夏）](/HalfAsleep)
 * 🫂[我只在乎你／鄧麗君（時の流れに身をまかせ／テレサ・テン）](/WoZhiZaihuNi)
 * 🎆[夜明けと蛍／n-buna（ヨルシカ）×初音ミク](/YoakeToHotaru)
