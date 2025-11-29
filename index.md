@@ -1,9 +1,9 @@
 ---
 layout: default
-title: 🌐iHuer Official Website｜主页／首頁／Home Page／ホームページ
+title: 🌐iHuer Official Website｜主页／Homepage
 ---
 
-## 🎤音乐翻唱／音樂翻唱／Music Cover／カバー曲 {#Cover}
+## 🎤翻唱／Music Cover {#Cover}
 
 * 🪺[いのちの名前／木村弓×久石譲](/InochiNoNamae)
 * 💤[半夢／ChiliChill（YuH×Cu夏）](/HalfAsleep)
@@ -47,15 +47,15 @@ title: 🌐iHuer Official Website｜主页／首頁／Home Page／ホームペ�
 * 💞[でもね／水野あつ×可不](/Demone)
 * 👑[KING／Kanaria×GUMI](/KING)
 
-> [使用条款／使用條款／Terms of use／利用規約](/Terms#Cover)
+> [免责声明／](/Disclaimer)[免責宣告](/Disclaimer/tc)[／免責事項／Disclaimer](/Disclaimer)
 
-## 🎶原创音乐／原創音樂／Original Music／オリジナル曲 {#Original}
+## 🎶原创／Original Music {#Original}
 
 * 
 
-> [使用条款／使用條款／Terms of use／利用規約](/Terms#Original)
+> [免责声明／](/Disclaimer)[免責宣告](/Disclaimer/tc)[／免責事項／Disclaimer](/Disclaimer)
 
-## 🎮遊戲體驗／遊戲體驗／Game Experience／ゲーム体験 {#Game}
+## 🎮游戏／Video Game {#Game}
 
 * 2022年1月25日 Ultimate Chicken Horse
 * 2021年8月25日 Minecraft Dungeons
