@@ -47,13 +47,13 @@ title: 🌐iHuer Official Website｜主页／Homepage
 * 💞[でもね／水野あつ×可不](/Demone)
 * 👑[KING／Kanaria×GUMI](/KING)
 
-> [免责声明／](/Disclaimer)[免責宣告](/Disclaimer/tc)[／免責事項／Disclaimer](/Disclaimer)
+> [免责声明／免責宣告／免責事項／Disclaimer](/Disclaimer)
 
 ## 🎶原创／Original Music {#Original}
 
-* 
+> [免责声明／免責宣告／免責事項／Disclaimer](/Disclaimer)
 
-> [免责声明／](/Disclaimer)[免責宣告](/Disclaimer/tc)[／免責事項／Disclaimer](/Disclaimer)
+> [二创方针／二創方針／二創規約／Guidelines](/Guidelines)
 
 ## 🎮游戏／Video Game {#Game}
 
