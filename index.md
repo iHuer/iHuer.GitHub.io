@@ -5,6 +5,7 @@ title: 🌐iHuer Official Website｜主页／Homepage
 
 ## 🎤翻唱／Music Cover {#Cover}
 
+* 🎄[クリスマスイブ／優里](/ChristmasEve)
 * 🪺[いのちの名前／木村弓×久石譲](/InochiNoNamae)
 * 💤[半夢／ChiliChill（YuH×Cu夏）](/HalfAsleep)
 * 🫂[我只在乎你／鄧麗君（時の流れに身をまかせ／テレサ・テン）](/WoZhiZaihuNi)
