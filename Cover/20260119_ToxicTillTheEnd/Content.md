@@ -1,7 +1,7 @@
 ---
 layout: Cover
 permalink: /ToxicTillTheEnd/
-title:☠️toxic till the end／ROSÉ
+title: ☠️toxic till the end／ROSÉ
 path: 20260119_ToxicTillTheEnd
 date: 2026.1.19
 youtube: lzkOH5eAdyc
