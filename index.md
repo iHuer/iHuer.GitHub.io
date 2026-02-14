@@ -5,6 +5,7 @@ title: 🌐iHuer Official Website｜主页／Homepage
 
 ## 🎤翻唱／Music Cover {#Cover}
 
+* 🖼️[ギャラリア／柊キライ×flower](/Galleria)
 * ☠️[toxic till the end／ROSÉ](/ToxicTillTheEnd)
 * 🎄[クリスマスイブ／優里](/ChristmasEve)
 * 🪺[いのちの名前／木村弓×久石譲](/InochiNoNamae)
