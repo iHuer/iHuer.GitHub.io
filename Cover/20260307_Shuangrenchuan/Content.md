@@ -7,7 +7,7 @@ date: 2026.3.7
 youtube: ArnCeWcep_s
 bilibili: BV1V9Paz3Eoe
 netease: 364999492
-qq: 
+qq: 000IFKZn06fWyJ
 shorts_youtube: WMN-bV_Ay0Q
 shorts_bilibili: BV1RQPazrEgq
 simplified: HlufpQwvIXI
