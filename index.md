@@ -5,6 +5,7 @@ title: 🌐iHuer Official Website｜主页／Homepage
 
 ## 🎤翻唱／Music Cover {#Cover}
 
+* 🐛[天ノ弱／164×GUMI＆みきとP×MAYU](/Amanojaku)
 * 🕰️[変わらないもの／奥華子](/KawaranaiMono)
 * 🛶[双人船／ChiliChill（YuH×Cu夏）](/Shuangrenchuan)
 * 🖼️[ギャラリア／柊キライ×flower](/Galleria)
