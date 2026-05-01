@@ -55,13 +55,25 @@ title: 🌐iHuer Official Website｜主页／Homepage
 
 > [免责声明／免責宣告／免責事項／Disclaimer](/Disclaimer)
 
+---
+
 ## 🎶原创／Original Music {#Original}
 
-> [免责声明／免責宣告／免責事項／Disclaimer](/Disclaimer)
+* 2027年
 
-> [二创方针／二創方針／二創規約／Guidelines](/Guidelines)
+---
 
 ## 🎮游戏／Video Game {#Game}
 
 * 2022年1月25日 Ultimate Chicken Horse
 * 2021年8月25日 Minecraft Dungeons
+
+---
+
+## ⚙️其他／Others {#Others}
+
+> [免责声明／免責宣告／免責事項／Disclaimer](/Disclaimer)
+
+> [二创方针／二創方針／二創規約／Guidelines](/Guidelines)
+
+> [联系方式／聯絡方式／ご連絡先／Contact](/Contact)
