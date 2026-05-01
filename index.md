@@ -53,22 +53,14 @@ title: 🌐iHuer Official Website｜主页／Homepage
 * 💞[でもね／水野あつ×可不](/Demone)
 * 👑[KING／Kanaria×GUMI](/KING)
 
-> [免责声明／免責宣告／免責事項／Disclaimer](/Disclaimer)
-
----
-
 ## 🎶原创／Original Music {#Original}
 
 * 2027年
-
----
 
 ## 🎮游戏／Video Game {#Game}
 
 * 2022年1月25日 Ultimate Chicken Horse
 * 2021年8月25日 Minecraft Dungeons
-
----
 
 ## ⚙️其他／Others {#Others}
 
