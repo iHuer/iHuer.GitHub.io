@@ -23,7 +23,7 @@ title: 联系方式／聯絡方式／ご連絡先／Contact
   <div class="fs-field">
     <label class="fs-label" for="message">Message</label>
     <textarea class="fs-textarea" id="message" name="message" required></textarea>
-    <p class="fs-description">Powered by <a href="https://Formspree.io">Formspree</a></p>
+    <p class="fs-description"><small>Powered by <a href="https://Formspree.io">Formspree</a></small></p>
   </div>
   <div class="fs-button-group">
     <button class="fs-button" type="submit">Submit</button>
@@ -31,8 +31,6 @@ title: 联系方式／聯絡方式／ご連絡先／Contact
 </form>
 
 <style>
-
-  @import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
   /** Variables **/
 
@@ -46,9 +44,6 @@ title: 联系方式／聯絡方式／ご連絡先／Contact
     --color-primary-active: #79320e;
     --color-text-default: #262626;
     --color-text-muted: #4f4f4f;
-
-    --font-family-body: "Figtree", system-ui, sans-serif;
-    --font-family-display: "Poppins", system-ui, sans-serif;
   }
 
   /** Base **/
@@ -65,13 +60,6 @@ title: 联系方式／聯絡方式／ご連絡先／Contact
     padding: 0;
   }
 
-  body {
-    -webkit-font-smoothing: antialiased;
-    font-family: var(--font-family-body);
-    font-optical-sizing: auto;
-    font-style: normal;
-  }
-
   button,
   input,
   optgroup,
@@ -80,7 +68,7 @@ title: 联系方式／聯絡方式／ご連絡先／Contact
     font-family: inherit;
     font-feature-settings: inherit;
     font-variation-settings: inherit;
-    font-size: 100%;
+    font-size: 75%;
     font-weight: inherit;
     line-height: inherit;
     color: inherit;
@@ -129,7 +117,6 @@ title: 联系方式／聯絡方式／ご連絡先／Contact
 
   .fs-fieldset-title {
     color: var(--color-text-default);
-    font-family: var(--font-family-display);
     font-size: 1.25rem;
     line-height: 1.75rem;
     margin-bottom: 1.5rem;
@@ -145,7 +132,6 @@ title: 联系方式／聯絡方式／ご連絡先／Contact
   .fs-label {
     color: var(--color-text-default);
     display: block;
-    font-family: var(--font-family-display);
     font-size: 1rem;
     line-height: 1.25rem;
   }
