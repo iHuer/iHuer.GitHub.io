@@ -7,7 +7,7 @@ date: 2026.6.18
 youtube: fSOtdyrx34M
 bilibili: BV19k7Q6jExm
 netease: 380189903
-qq: 
+qq: 000NtCCc4e5krQ
 shorts_youtube: M2qDo7ZdaXk
 shorts_bilibili: BV1T57Q6iEhY
 ---
