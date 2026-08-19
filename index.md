@@ -5,6 +5,7 @@ title: 🌐iHuer Official Website｜主页／Homepage
 
 ## 🎤翻唱／Music Cover {#Cover}
 
+* 👣[Imaginary Friend／ITZY](/ImaginaryFriend)
 * 💬[Talk that Talk／TWICE](/TalkThatTalk)
 * 🫠[ノンブレス・オブリージュ／ピノキオピー×初音ミク](/Non-breathOblige)
 * 🐛[天ノ弱／164×GUMI＆みきとP×MAYU](/Amanojaku)
