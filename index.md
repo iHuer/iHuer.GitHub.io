@@ -5,6 +5,7 @@ title: 🌐iHuer Official Website｜主页／Homepage
 
 ## 🎤翻唱／Music Cover {#Cover}
 
+* 💐[アルジャーノン／ヨルシカ（n-buna×suis）](/Algernon)
 * 👣[Imaginary Friend／ITZY](/ImaginaryFriend)
 * 💬[Talk that Talk／TWICE](/TalkThatTalk)
 * 🫠[ノンブレス・オブリージュ／ピノキオピー×初音ミク](/Non-breathOblige)
@@ -67,8 +68,8 @@ title: 🌐iHuer Official Website｜主页／Homepage
 
 ## ⚙️其他／Others {#Others}
 
-> [免责声明／免責宣告／免責事項／Disclaimer](/Disclaimer)
+> [免责声明／免責宣告／免責事項／免責聲明／면책 성명／Disclaimer](/Disclaimer)
 
-> [二创方针／二創方針／二創規約／Guidelines](/Guidelines)
+> [二创方针／二創方針／二創規約／2차 창작 지침／Derivative Creation Guidelines](/Guidelines)
 
-> [联系方式／聯絡方式／ご連絡先／Contact](/Contact)
+> [联系方式／聯絡方式／ご連絡先／연락처／Contact](/Contact)
