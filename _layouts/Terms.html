@@ -1,0 +1,83 @@
+---
+layout: default
+---
+
+<article class="page">
+
+	<h5><big><big>«</big></big><a href="https://iHuer.GitHub.io">主页／Homepage</a></h5>
+
+	{%- assign type = page.type -%}
+	{%- if type == "disclaimer" -%}
+		<h1>免责声明／免責聲明／免責事項／면책 성명／Disclaimer</h1>
+
+		{%- assign language = page.language -%}
+			{%- if language == "sc" -%}
+				<h5>{{ page.date | date: "%Y年%m月%d日" }}｜简体中文•<a href="https://iHuer.GitHub.io/Disclaimer/tc">繁體中文</a>•<a href="https://iHuer.GitHub.io/Disclaimer/jp">日本語</a>•<a href="https://iHuer.GitHub.io/Disclaimer/kr">한국어</a>•<a href="https://iHuer.GitHub.io/Disclaimer/en">English</a></h5>
+			{%- elsif language == "tc" -%}
+				<h5>{{ page.date | date: "%Y年%m月%d日" }}｜<a href="https://iHuer.GitHub.io/Disclaimer">简体中文</a>•繁體中文•<a href="https://iHuer.GitHub.io/Disclaimer/jp">日本語</a>•<a href="https://iHuer.GitHub.io/Disclaimer/kr">한국어</a>•<a href="https://iHuer.GitHub.io/Disclaimer/en">English</a></h5>
+			{%- elsif language == "jp" -%}
+				<h5>{{ page.date | date: "%Y年%m月%d日" }}｜<a href="https://iHuer.GitHub.io/Disclaimer">简体中文</a>•<a href="https://iHuer.GitHub.io/Disclaimer/tc">繁體中文</a>•日本語•<a href="https://iHuer.GitHub.io/Disclaimer/kr">한국어</a>•<a href="https://iHuer.GitHub.io/Disclaimer/en">English</a></h5>
+			{%- elsif language == "kr" -%}
+				<h5>{{ page.date | date: "%Y年%m月%d日" }}｜<a href="https://iHuer.GitHub.io/Disclaimer">简体中文</a>•<a href="https://iHuer.GitHub.io/Disclaimer/tc">繁體中文</a>•<a href="https://iHuer.GitHub.io/Disclaimer/jp">日本語</a>•한국어•<a href="https://iHuer.GitHub.io/Disclaimer/en">English</a></h5>
+			{%- elsif language == "en" -%}
+				<h5>{{ page.date | date: "%Y年%m月%d日" }}｜<a href="https://iHuer.GitHub.io/Disclaimer">简体中文</a>•<a href="https://iHuer.GitHub.io/Disclaimer/tc">繁體中文</a>•<a href="https://iHuer.GitHub.io/Disclaimer/jp">日本語</a>•<a href="https://iHuer.GitHub.io/Disclaimer/kr">한국어</a>•English</h5>
+			{%- endif -%}
+
+	{%- elsif type == "guidelines" -%}
+		<h1>二创方针／二創方針／二創規約／2차 창작 지침／Derivative Creation Guidelines</h1>
+
+		{%- assign language = page.language -%}
+			{%- if language == "sc" -%}
+				<h5>{{ page.date | date: "%Y年%m月%d日" }}｜简体中文•<a href="https://iHuer.GitHub.io/Guidelines/tc">繁體中文</a>•<a href="https://iHuer.GitHub.io/Guidelines/jp">日本語</a>•<a href="https://iHuer.GitHub.io/Guidelines/kr">한국어</a>•<a href="https://iHuer.GitHub.io/Guidelines/en">English</a></h5>
+			{%- elsif language == "tc" -%}
+				<h5>{{ page.date | date: "%Y年%m月%d日" }}｜<a href="https://iHuer.GitHub.io/Guidelines">简体中文</a>•繁體中文•<a href="https://iHuer.GitHub.io/Guidelines/jp">日本語</a>•<a href="https://iHuer.GitHub.io/Guidelines/kr">한국어</a>•<a href="https://iHuer.GitHub.io/Guidelines/en">English</a></h5>
+			{%- elsif language == "jp" -%}
+				<h5>{{ page.date | date: "%Y年%m月%d日" }}｜<a href="https://iHuer.GitHub.io/Guidelines">简体中文</a>•<a href="https://iHuer.GitHub.io/Guidelines/tc">繁體中文</a>•日本語•<a href="https://iHuer.GitHub.io/Guidelines/kr">한국어</a>•<a href="https://iHuer.GitHub.io/Guidelines/en">English</a></h5>
+			{%- elsif language == "kr" -%}
+				<h5>{{ page.date | date: "%Y年%m月%d日" }}｜<a href="https://iHuer.GitHub.io/Guidelines">简体中文</a>•<a href="https://iHuer.GitHub.io/Guidelines/tc">繁體中文</a>•<a href="https://iHuer.GitHub.io/Guidelines/jp">日本語</a>•한국어•<a href="https://iHuer.GitHub.io/Guidelines/en">English</a></h5>
+			{%- elsif language == "en" -%}
+				<h5>{{ page.date | date: "%Y年%m月%d日" }}｜<a href="https://iHuer.GitHub.io/Guidelines">简体中文</a>•<a href="https://iHuer.GitHub.io/Guidelines/tc">繁體中文</a>•<a href="https://iHuer.GitHub.io/Guidelines/jp">日本語</a>•<a href="https://iHuer.GitHub.io/Guidelines/kr">한국어</a>•English</h5>
+			{%- endif -%}
+
+	{%- endif -%}
+
+	{{ content }}
+
+	<br>
+	<hr>
+	<br>
+
+	{%- assign type = page.type -%}
+	{%- if type == "disclaimer" -%}
+		{%- assign language = page.language -%}
+			{%- if language == "sc" -%}
+				<blockquote><a href="https://iHuer.GitHub.io/Disclaimer">免责声明／免責宣告／免責事項／Disclaimer</a></blockquote><br>
+			{%- elsif language == "tc" -%}
+				<blockquote><a href="https://iHuer.GitHub.io/Disclaimer/tc">免责声明／免責宣告／免責事項／Disclaimer</a></blockquote><br>
+			{%- elsif language == "jp" -%}
+				<blockquote><a href="https://iHuer.GitHub.io/Disclaimer/jp">免责声明／免責宣告／免責事項／Disclaimer</a></blockquote><br>
+			{%- elsif language == "kr" -%}
+				<blockquote><a href="https://iHuer.GitHub.io/Disclaimer/kr">免责声明／免責宣告／免責事項／Disclaimer</a></blockquote><br>
+			{%- elsif language == "en" -%}
+				<blockquote><a href="https://iHuer.GitHub.io/Disclaimer/en">免责声明／免責宣告／免責事項／Disclaimer</a></blockquote><br>
+			{%- endif -%}
+
+	{%- elsif type == "guidelines" -%}
+		{%- assign language = page.language -%}
+			{%- if language == "sc" -%}
+				<blockquote><a href="https://iHuer.GitHub.io/Guidelines">二创方针／二創方針／二創規約／2차 창작 지침／Derivative Creation Guidelines</a></blockquote><br>
+			{%- elsif language == "tc" -%}
+				<blockquote><a href="https://iHuer.GitHub.io/Guidelines/tc">二创方针／二創方針／二創規約／2차 창작 지침／Derivative Creation Guidelines</a></blockquote><br>
+			{%- elsif language == "jp" -%}
+				<blockquote><a href="https://iHuer.GitHub.io/Guidelines/jp">二创方针／二創方針／二創規約／2차 창작 지침／Derivative Creation Guidelines</a></blockquote><br>
+			{%- elsif language == "kr" -%}
+				<blockquote><a href="https://iHuer.GitHub.io/Guidelines/kr">二创方针／二創方針／二創規約／2차 창작 지침／Derivative Creation Guidelines</a></blockquote><br>
+			{%- elsif language == "en" -%}
+				<blockquote><a href="https://iHuer.GitHub.io/Guidelines/en">二创方针／二創方針／二創規約／2차 창작 지침／Derivative Creation Guidelines</a></blockquote><br>
+			{%- endif -%}
+
+	{%- endif -%}
+
+	<blockquote><a href="https://iHuer.GitHub.io/Contact">联系方式／聯絡方式／ご連絡先／연락처／Contact</a></blockquote><br>
+
+</article>
