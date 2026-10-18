@@ -79,13 +79,13 @@ layout: default
 			<p>bilibili：</p>
 		{%- endif -%}
 
-		{%- assign solo_netease = page.solo_netease -%}
-		{%- if solo_netease -%}
-			<br><h2>🎙️Solo</h2>
-			<audio src="https://ghfast.top/https://raw.githubusercontent.com/iHuer/iHuer.github.io/main/Cover/{{ page.path }}/Solo/Collaborator.mp3" preload="metadata" controls></audio>
-			<br><br>
-			<p>网易云：<a href="https://music.163.com/album/{{ page.solo_netease }}">https://music.163.com/album/{{ page.solo_netease }}</a></p>
-		{%- endif -%}
+	{%- assign solo_netease = page.solo_netease -%}
+	{%- if solo_netease -%}
+		<br><h2>🎙️Solo</h2>
+		<audio src="https://ghfast.top/https://raw.githubusercontent.com/iHuer/iHuer.github.io/main/Cover/{{ page.path }}/Solo/Collaborator.mp3" preload="metadata" controls></audio>
+		<br><br>
+		<p>网易云：<a href="https://music.163.com/album/{{ page.solo_netease }}">https://music.163.com/album/{{ page.solo_netease }}</a></p>
+	{%- endif -%}
 
 	{%- assign audio = page.audio -%}
 	{%- if audio -%}
@@ -143,7 +143,6 @@ layout: default
 			<br><hr><br>
 			<img src="https://ghfast.top/https://raw.githubusercontent.com/iHuer/iHuer.github.io/main/Cover/{{ page.path }}/{{ page.image }}"><br><br>
 		{%- endif -%}
-
 	{%- endif -%}
 
 	{{ content }}
@@ -152,6 +151,8 @@ layout: default
 	<hr>
 	<br>
 
-	<blockquote><a href="https://iHuer.GitHub.io/Disclaimer">免责声明／免責宣告／免責事項／Disclaimer</a></blockquote><br>
+	<blockquote><a href="https://iHuer.GitHub.io/Disclaimer">免责声明／免責聲明／免責事項／면책 성명／Disclaimer</a></blockquote><br>
+	<blockquote><a href="https://iHuer.GitHub.io/Guidelines">二创方针／二創方針／二創規約／2차 창작 지침／Derivative Creation Guidelines</a></blockquote><br>
+	<blockquote><a href="https://iHuer.GitHub.io/Contact">联系方式／聯絡方式／ご連絡先／연락처／Contact</a></blockquote><br>
 
 </article>
