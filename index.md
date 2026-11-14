@@ -5,6 +5,7 @@ title: 🌐iHuer Official Website｜主页／Homepage
 
 ## 🎤翻唱／Music Cover {#Cover}
 
+* 🩷[number one girl／ROSÉ（BLACKPINK）](/NumberOneGirl)
 * 🐸[君にカエル (Maybe)／&TEAM](/Maybe)
 * 💧[青い号哭／カンザキイオリ](/AoiGoukoku)
 * 💐[アルジャーノン／ヨルシカ（n-buna×suis）](/Algernon)
